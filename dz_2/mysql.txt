@@ -1,0 +1,7 @@
+-- Создаём дамп базы данных "example"
+mysqldump -u root -p example > 'Рабочий стол'/uchebka/DZ/dz_SQL/example_damp.sql
+
+
+-- Разворачиваем содержимое дампа "example" в новую базу данных "sample"
+mysql -u root -p sample < 'Рабочий стол'/uchebka/DZ/dz_SQL/example_damp.sql
+
